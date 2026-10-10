@@ -1,0 +1,234 @@
+{
+  "generated_at_utc": "2026-07-17T20:37:46.024220+00:00",
+  "pack": {
+    "title": "Fantasy Pixel Icons",
+    "pack_key": "skills",
+    "tier": "free",
+    "version": "v002",
+    "archive_name": "fantasy-pixel-icons-skills-free-v002.zip",
+    "profile": "standard",
+    "sizes": [
+      32,
+      64,
+      128
+    ]
+  },
+  "icons": [
+    {
+      "id": "arcane-arrows",
+      "name": "arcane-arrows",
+      "files": {
+        "32": "32/arcane-arrows.png",
+        "64": "64/arcane-arrows.png",
+        "128": "128/arcane-arrows.png"
+      }
+    },
+    {
+      "id": "arcane-renewal",
+      "name": "arcane-renewal",
+      "files": {
+        "32": "32/arcane-renewal.png",
+        "64": "64/arcane-renewal.png",
+        "128": "128/arcane-renewal.png"
+      }
+    },
+    {
+      "id": "berserk",
+      "name": "berserk",
+      "files": {
+        "32": "32/berserk.png",
+        "64": "64/berserk.png",
+        "128": "128/berserk.png"
+      }
+    },
+    {
+      "id": "burning-blood",
+      "name": "burning-blood",
+      "files": {
+        "32": "32/burning-blood.png",
+        "64": "64/burning-blood.png",
+        "128": "128/burning-blood.png"
+      }
+    },
+    {
+      "id": "conjure-demon",
+      "name": "conjure-demon",
+      "files": {
+        "32": "32/conjure-demon.png",
+        "64": "64/conjure-demon.png",
+        "128": "128/conjure-demon.png"
+      }
+    },
+    {
+      "id": "consuming-dark",
+      "name": "consuming-dark",
+      "files": {
+        "32": "32/consuming-dark.png",
+        "64": "64/consuming-dark.png",
+        "128": "128/consuming-dark.png"
+      }
+    },
+    {
+      "id": "crimson-bind",
+      "name": "crimson-bind",
+      "files": {
+        "32": "32/crimson-bind.png",
+        "64": "64/crimson-bind.png",
+        "128": "128/crimson-bind.png"
+      }
+    },
+    {
+      "id": "dead-facade",
+      "name": "dead-facade",
+      "files": {
+        "32": "32/dead-facade.png",
+        "64": "64/dead-facade.png",
+        "128": "128/dead-facade.png"
+      }
+    },
+    {
+      "id": "dragons-might",
+      "name": "dragons-might",
+      "files": {
+        "32": "32/dragons-might.png",
+        "64": "64/dragons-might.png",
+        "128": "128/dragons-might.png"
+      }
+    },
+    {
+      "id": "electrify",
+      "name": "electrify",
+      "files": {
+        "32": "32/electrify.png",
+        "64": "64/electrify.png",
+        "128": "128/electrify.png"
+      }
+    },
+    {
+      "id": "ember-might",
+      "name": "ember-might",
+      "files": {
+        "32": "32/ember-might.png",
+        "64": "64/ember-might.png",
+        "128": "128/ember-might.png"
+      }
+    },
+    {
+      "id": "fire-barrier",
+      "name": "fire-barrier",
+      "files": {
+        "32": "32/fire-barrier.png",
+        "64": "64/fire-barrier.png",
+        "128": "128/fire-barrier.png"
+      }
+    },
+    {
+      "id": "frozen",
+      "name": "frozen",
+      "files": {
+        "32": "32/frozen.png",
+        "64": "64/frozen.png",
+        "128": "128/frozen.png"
+      }
+    },
+    {
+      "id": "gale-force",
+      "name": "gale-force",
+      "files": {
+        "32": "32/gale-force.png",
+        "64": "64/gale-force.png",
+        "128": "128/gale-force.png"
+      }
+    },
+    {
+      "id": "harbinger",
+      "name": "harbinger",
+      "files": {
+        "32": "32/harbinger.png",
+        "64": "64/harbinger.png",
+        "128": "128/harbinger.png"
+      }
+    },
+    {
+      "id": "infernal-vision",
+      "name": "infernal-vision",
+      "files": {
+        "32": "32/infernal-vision.png",
+        "64": "64/infernal-vision.png",
+        "128": "128/infernal-vision.png"
+      }
+    },
+    {
+      "id": "jade-dash",
+      "name": "jade-dash",
+      "files": {
+        "32": "32/jade-dash.png",
+        "64": "64/jade-dash.png",
+        "128": "128/jade-dash.png"
+      }
+    },
+    {
+      "id": "lancer",
+      "name": "lancer",
+      "files": {
+        "32": "32/lancer.png",
+        "64": "64/lancer.png",
+        "128": "128/lancer.png"
+      }
+    },
+    {
+      "id": "lycan-fury",
+      "name": "lycan-fury",
+      "files": {
+        "32": "32/lycan-fury.png",
+        "64": "64/lycan-fury.png",
+        "128": "128/lycan-fury.png"
+      }
+    },
+    {
+      "id": "phantom-aura",
+      "name": "phantom-aura",
+      "files": {
+        "32": "32/phantom-aura.png",
+        "64": "64/phantom-aura.png",
+        "128": "128/phantom-aura.png"
+      }
+    },
+    {
+      "id": "revival",
+      "name": "revival",
+      "files": {
+        "32": "32/revival.png",
+        "64": "64/revival.png",
+        "128": "128/revival.png"
+      }
+    },
+    {
+      "id": "skeletal-lightning",
+      "name": "skeletal-lightning",
+      "files": {
+        "32": "32/skeletal-lightning.png",
+        "64": "64/skeletal-lightning.png",
+        "128": "128/skeletal-lightning.png"
+      }
+    },
+    {
+      "id": "verdant-meditation",
+      "name": "verdant-meditation",
+      "files": {
+        "32": "32/verdant-meditation.png",
+        "64": "64/verdant-meditation.png",
+        "128": "128/verdant-meditation.png"
+      }
+    },
+    {
+      "id": "woodland-archer",
+      "name": "woodland-archer",
+      "files": {
+        "32": "32/woodland-archer.png",
+        "64": "64/woodland-archer.png",
+        "128": "128/woodland-archer.png"
+      }
+    }
+  ]
+}

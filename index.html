@@ -1,5 +1,65 @@
 <!DOCTYPE html>
 <html>
-  <head><meta charset="utf-8"></head>
-  <body></body>
+  <head>
+    <meta charset="utf-8" />
+    <title>修仙世界</title>
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        background-color: #1a1a1a;
+        user-select: none; /* 彻底禁止网页文本选区干扰游戏拖动 */
+      }
+
+      canvas {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw !important;
+        height: 100vh !important;
+        display: block;
+        outline: none;
+      }
+    </style>
+  <!-- 1. 复制配置文件 -->
+  <link data-trunk rel="copy-file" href="manifest.json" />
+  <link rel="manifest" href="/manifest.json" />
+
+  <!-- 2. 【修复这里】恢复为 copy-file，让 Trunk 把它当成普通 JS 复制，不走 Cargo 编译 -->
+  <link data-trunk rel="copy-file" href="sw.js" />
+
+  <!-- 3. 复制静态资源目录 -->
+  <link data-trunk rel="copy-dir" href="assets" />
+  </head>
+  <body>
+   <script>
+      // 2. 新增：页面加载时，自动注册 Service Worker
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker.register("./sw.js")
+            .then(reg => console.log("🚀 PWA 服务向导已觉醒!"))
+            .catch(err => console.log("❌ PWA 觉醒失败:", err));
+        });
+      }
+
+      // =======================================================================
+      // 下面是你原本的防冲突护盾脚本（保持不变）
+      // =======================================================================
+      window.addEventListener("contextmenu", (e) => e.preventDefault());
+      window.addEventListener("keydown", (e) => {
+        const blockedCodes = ["Space", "Tab", "Backspace", "ArrowUp", "ArrowDown", "ArrowLeft", "ArrowRight", "KeyW", "KeyA", "KeyS", "KeyD"];
+        if (blockedCodes.includes(e.code)) e.preventDefault();
+        if (e.ctrlKey || e.altKey || e.metaKey) {
+          if (e.key !== "F12" && e.key !== "F5" && !(e.ctrlKey && e.shiftKey && e.key.toLowerCase() === "i") && !(e.ctrlKey && e.key.toLowerCase() === "r")) {
+            e.preventDefault();
+          }
+        }
+      }, { passive: false });
+      window.addEventListener("click", () => { const canvas = document.querySelector("canvas"); if (canvas) { canvas.focus(); } else { window.focus(); } });
+      document.addEventListener("fullscreenchange", () => { if (document.fullscreenElement && navigator.keyboard && navigator.keyboard.lock) { navigator.keyboard.lock(["Tab", "Escape", "F11"]); } });
+    </script>
+  </body>
 </html>

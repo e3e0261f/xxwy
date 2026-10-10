@@ -1,0 +1,15 @@
+# Trunk.toml
+
+[watch]
+# 明确告诉 Trunk 必须监听这三个核心目录（你的 src 只要变动就触发）
+watch = ["src", "index.html", "assets"]
+
+# 忽略缓存和生成的隐藏文件
+ignore = [
+    "target",
+    ".git"
+]
+
+[serve]
+port = 8080
+open = false

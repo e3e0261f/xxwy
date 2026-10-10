@@ -1,7 +1,27 @@
 [package]
 name = "xianxia_game"
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
 
 [dependencies]
-bevy = "0.19.1"
+# 显式添加必要的特性，否则 WebGL 可能跑不起来
+bevy = { version = "0.19.1", default-features = false, features = [
+    "2d",
+    "bevy_sprite",
+    "bevy_render",
+    "bevy_core_pipeline",
+    "bevy_winit",
+    "png",
+    "webgl2"
+] }
+bevy_egui = "0.42.0"
+serde = "1.0.229"
+serde_json = "1.0.151"
+# 开发模式下的配置：对你的代码低优化（编译极快），但对 bevy 和 egui 开满 3 级优化（运行极快）
+[profile.dev.package."*"]
+opt-level = 3
+
+[profile.release]
+opt-level = 'z'     # 优化体积
+lto = true          # 跨包链接优化
+codegen-units = 1

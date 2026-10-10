@@ -1,0 +1,38 @@
+{
+    "activeFile": "",
+    "expandedProjectPaths": [
+        "dist",
+        "target",
+        "."
+    ],
+    "fileStates": {
+        ":/automap-tiles.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1
+        },
+        "assets/RPGpack_sheet_2X.tsx": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1
+        },
+        "base_sprite.tsx": {
+            "dynamicWrapping": false,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        }
+    },
+    "last.externalTilesetPath": "/home/rhys/DOwn/xianxia_game/assets/Spritesheet",
+    "map.renderOrder": null,
+    "openFiles": [
+    ],
+    "project": "xmxa.tiled-project",
+    "recentFiles": [
+        "base_sprite.tsx"
+    ],
+    "tileset.lastUsedFilter": "全部檔案 (*)",
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 32,
+        "width": 32
+    },
+    "tileset.type": 0
+}

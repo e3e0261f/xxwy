@@ -1,0 +1,54 @@
+{
+    "activeFile": "",
+    "expandedProjectPaths": [
+    ],
+    "fileStates": {
+        "/home/rhys/Downloads/All.tsx": {
+            "scaleInDock": 1.5,
+            "scaleInEditor": 1
+        },
+        "/home/rhys/Downloads/water-example.tmx": {
+            "scale": 1.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 450.33333333333326,
+                "y": 465
+            }
+        },
+        "/home/rhys/Downloads/water-example.tmx#watertiles-auto": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "/home/rhys/Downloads/未命名.tmx": {
+            "scale": 0.5284375,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 175.04435245416911,
+                "y": 481.6085156712004
+            }
+        },
+        "File.tsx": {
+            "scaleInDock": 1
+        },
+        "bubble emotes july update.tsx": {
+            "scaleInDock": 4
+        },
+        "items_7.tsx": {
+            "scaleInDock": 4
+        }
+    },
+    "map.lastUsedFormat": "tmx",
+    "openFiles": [
+    ],
+    "project": "未命名.tiled-project",
+    "recentFiles": [
+        "/home/rhys/Downloads/All.tsx",
+        "/home/rhys/Downloads/未命名.tmx",
+        "/home/rhys/Downloads/water-example.tmx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 16,
+        "width": 16
+    }
+}

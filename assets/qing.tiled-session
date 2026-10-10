@@ -1,0 +1,84 @@
+{
+    "activeFile": "ql.tmx",
+    "automapping.whileDrawing": false,
+    "expandedProjectPaths": [
+    ],
+    "fileStates": {
+        "": {
+            "scaleInDock": 1
+        },
+        "32x32.tsx": {
+            "scaleInDock": 1
+        },
+        ":/automap-tiles.tsx": {
+            "scaleInDock": 1
+        },
+        "Aurora Tileset.tsx": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "IconSet.tsx": {
+            "scaleInDock": 1
+        },
+        "RPGpack_sheet.tsx": {
+            "scaleInDock": 0.75
+        },
+        "RetroCatsFree.tsx": {
+            "scaleInDock": 1
+        },
+        "SP-Objects-16-16.tsx": {
+            "scaleInDock": 4
+        },
+        "SP-Objects.tsx": {
+            "scaleInDock": 1
+        },
+        "UI_Ballsy.tsx": {
+            "scaleInDock": 1
+        },
+        "animals.tsx": {
+            "scaleInDock": 1
+        },
+        "icon_sheet_32x32.tsx": {
+            "scaleInDock": 1
+        },
+        "ql.tmx": {
+            "expandedGroupLayers": [
+                15
+            ],
+            "scale": 2,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 8805.25,
+                "y": 5804.75
+            }
+        },
+        "rogues.tsx": {
+            "scaleInDock": 2
+        },
+        "tiles.tsx": {
+            "scaleInDock": 1
+        }
+    },
+    "last.exportedFilePath": "/home/rhys/DOwn/xianxia_game/assets/maps",
+    "map.height": 16,
+    "map.lastUsedExportFilter": "JSON map files (*.tmj *.json)",
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 32,
+    "map.tileWidth": 32,
+    "map.width": 16,
+    "openFiles": [
+        "ql.tmx"
+    ],
+    "project": "qing.tiled-project",
+    "recentFiles": [
+        "ql.tmx",
+        "Aurora Tileset.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 32,
+        "width": 32
+    },
+    "tileset.transparentColor": "#ffffff",
+    "tileset.useTransparentColor": true
+}
