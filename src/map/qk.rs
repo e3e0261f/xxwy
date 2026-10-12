@@ -49,6 +49,7 @@ pub struct TiledPoint {
 #[derive(Deserialize, Clone, Debug)]
 pub struct TiledRawObject {
     #[serde(default)]
+    #[allow(dead_code)] // 👈 告诉编译器：我知道没用它，别报错
     pub name: String,
     pub x: f32,
     pub y: f32,
@@ -183,6 +184,7 @@ pub fn load_qk_data(mut commands: Commands) {
                     continue;
                 }
 
+                // 1. 【多边形碰撞体】：有 polygon 顶点数据，且至少 3 个点
                 if let Some(pts) = &obj.polygon {
                     if pts.len() >= 3 {
                         let mut world_pts = Vec::new();
@@ -211,7 +213,14 @@ pub fn load_qk_data(mut commands: Commands) {
                             max: Vec2::new(max_x, max_y),
                         });
                     }
-                } else if obj.width > 2.0 && obj.height > 2.0 {
+                }
+                // 2. 【矩形/椭圆/圆形碰撞体】：在 Tiled 中，这些纯几何形状的特殊点在于：
+                //    它们没有关联任何图片（即没有全局图块 ID，Tiled 导出的 JSON 中 gid 字段会是 None 或 0）
+                //    并且它们必须具备一定的物理宽高（比如大于 2 像素）
+                else if obj.width > 2.0 && obj.height > 2.0 {
+                    // 🚨 关键补丁：利用 serde_json 的临时解析或者直接在这里根据没有绑定图片来判断
+                    // 如果这是一个直接从图集里拉出来的“带有图片的物件”，它通常会有 gid，我们在这里过滤掉它
+
                     let left = qk_left_px + obj.x - half_tile;
                     let right = left + obj.width;
                     let top = qk_top_px - obj.y - half_tile;

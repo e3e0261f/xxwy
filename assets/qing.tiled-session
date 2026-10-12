@@ -1,5 +1,5 @@
 {
-    "activeFile": "ql.tmx",
+    "activeFile": "/home/rhys/Documents/ql.tmx",
     "automapping.whileDrawing": false,
     "expandedProjectPaths": [
     ],
@@ -7,10 +7,32 @@
         "": {
             "scaleInDock": 1
         },
+        "/home/rhys/Documents/ql.tmx": {
+            "expandedGroupLayers": [
+                15
+            ],
+            "scale": 3,
+            "selectedLayer": 3,
+            "viewCenter": {
+                "x": 4921.833333333333,
+                "y": 1688.5
+            }
+        },
+        "/home/rhys/Documents/ql.tmx#House3": {
+            "scaleInDock": 1
+        },
+        "/home/rhys/Documents/ql.tmx#house1": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1
+        },
+        "/home/rhys/Documents/ql.tmx#house2": {
+            "scaleInDock": 1
+        },
         "32x32.tsx": {
             "scaleInDock": 1
         },
         ":/automap-tiles.tsx": {
+            "dynamicWrapping": false,
             "scaleInDock": 1
         },
         "Aurora Tileset.tsx": {
@@ -52,6 +74,9 @@
                 "y": 5804.75
             }
         },
+        "ql.tmx#house1": {
+            "dynamicWrapping": true
+        },
         "rogues.tsx": {
             "scaleInDock": 2
         },
@@ -67,18 +92,21 @@
     "map.tileWidth": 32,
     "map.width": 16,
     "openFiles": [
-        "ql.tmx"
+        "/home/rhys/Documents/ql.tmx"
     ],
     "project": "qing.tiled-project",
     "recentFiles": [
+        "/home/rhys/Documents/ql.tmx",
         "ql.tmx",
         "Aurora Tileset.tsx"
     ],
+    "tileset.embedInMap": true,
     "tileset.lastUsedFormat": "tsx",
     "tileset.tileSize": {
         "height": 32,
         "width": 32
     },
     "tileset.transparentColor": "#ffffff",
+    "tileset.type": 1,
     "tileset.useTransparentColor": true
 }
